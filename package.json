@@ -2,13 +2,18 @@
   "name": "qa-playwright-demo",
   "version": "1.0.0",
   "description": "Playwright + TypeScript E2E and API tests against public practice sites",
-  "main": "index.js",
   "scripts": {
     "test": "playwright test",
     "report": "playwright show-report"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "playwright",
+    "qa",
+    "e2e",
+    "api-testing",
+    "typescript"
+  ],
+  "author": "Gabriel Migliatti",
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
