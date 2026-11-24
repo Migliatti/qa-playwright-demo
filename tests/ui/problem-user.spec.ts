@@ -7,7 +7,7 @@ import { users } from '../../fixtures/users';
 // test.fail() means: the test is EXPECTED to fail while the bug exists.
 // If the site is fixed, this test starts "passing" unexpectedly and Playwright reports it,
 // which is the signal to remove test.fail() and keep it as a normal regression test.
-test('known bug: problem_user sees a different image for each product', async ({ page }) => {
+test('problem_user should see distinct product images (known bug: all identical)', async ({ page }) => {
   test.fail();
   const login = new LoginPage(page);
   await login.open();
