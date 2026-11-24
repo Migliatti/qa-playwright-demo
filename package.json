@@ -1,0 +1,19 @@
+{
+  "name": "qa-playwright-demo",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript E2E and API tests against public practice sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
