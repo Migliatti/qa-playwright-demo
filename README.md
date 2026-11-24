@@ -47,7 +47,7 @@ docs/        Test plan and bug report example
 - Both sites are shared public services. They can be slow, down, or reset, which may fail a run for reasons unrelated to the code. CI retries failed tests once.
 - restful-booker does not follow common API conventions: wrong credentials return `200` with a reason (not `401`), and an invalid booking returns `500` (not `400`). The tests assert what the API really does and say so in comments.
 - Chromium only. No performance, security, accessibility or visual tests.
-- The CI workflow was written but, at the time of writing, not yet run on GitHub. The suite was run locally.
+- The suite runs in GitHub Actions on every push (Chromium only).
 
 ## Em português (resumo)
 
